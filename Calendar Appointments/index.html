@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar Appointments</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="input-container" id="input-container">
+            <h1>Calendar Appointments</h1>
+            <form class="form" id="countDownForm">
+                <label for="">Topic</label>
+                <input type="text" class="title" id="title">
+                <label for="">dd/mm/yy</label>
+                <input type="date" class="date-picker" id="date-picker">
+                <button type="submit">save</button>
+            </form>
+        </div>
+        <div class="countdown" id="countdown"  hidden>
+            <h1 id="countdown-title"></h1>
+            <ul>
+                <li><span></span>date</li>
+                <li><span></span>time</li>
+                <li><span></span>minute</li>
+                <li><span></span>milliseconds</li>
+            </ul>
+            <button id="countdown-button">ยกเลิก</button>
+        </div>
+        <div class="complete" id="complete" hidden>
+            <h1 class="complete-title">notification</h1>
+            <h1 class="complete-info" id="complete-info"></h1> 
+            <button id="complete-button">new appointment</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
