@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Slider</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="mukiwara.jpg" alt="">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <button id="toggle" class="toggle">
+            <i class="fa fa-bars fa-2x"></i>
+        </button>
+        <h1>Khaniitha Webpage</h1>
+        <p>Programming Workshop</p>
+        <button class="create-account" id="open">Sign up</button>
+    </header>
+    <div class="container">
+        <h2>Web Development</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorum praesentium, voluptas quis placeat dolores nulla quasi dicta laborum nostrum nam cupiditate odit deleniti pariatur eum fugit natus? Cum, minus!</p>
+        <h2>Game Development</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis non, a quas illum hic eveniet architecto explicabo sit aliquid nisi autem fugiat id earum sunt obcaecati, vel qui nihil minima?</p>
+    </div>
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h3>Registration</h3>
+            </div>
+            <div class="modal-content">
+                <p>New member</p>
+                <form class="modal-form">
+                    <div>
+                        <label for="">Username</label>
+                        <input type="text" class="form-input">
+                    </div>
+                    <div>
+                        <label for="">E-mail</label>
+                        <input type="email" class="form-input">
+                    </div>
+                    <div>
+                        <label for="">Password</label>
+                        <input type="password" class="form-input">
+                    </div>
+                    <input type="submit" value="save" class="submit-btn">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

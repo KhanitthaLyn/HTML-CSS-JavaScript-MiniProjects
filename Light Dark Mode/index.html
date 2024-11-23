@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark & Light Mode | Workshop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="theme-switch-container">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
+    <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="home">
+        <div class="title-group">
+            <h1>My Webpage</h1>
+            <h2>Programming</h2>
+        </div>
+    </section>
+    <section id="project">
+        <h1>Projects</h1>
+        <div class="project-container">
+            <div class="image-container">
+                <h2>Website</h2>
+                <img src="img/undraw_Projections_light.svg" alt="" id="image1">
+            </div>
+            <div class="image-container">
+                <h2>React</h2>
+                <img src="img/undraw_Raining_light.svg" alt="" id="image2">
+            </div>
+            <div class="image-container">
+                <h2>Freelance</h2>
+                <img src="img/undraw_Freelancer_light.svg" alt="" id="image3">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+            <div class="social-icon">
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-medium"></i>
+                    <i class="fab fa-github"></i>
+            </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
