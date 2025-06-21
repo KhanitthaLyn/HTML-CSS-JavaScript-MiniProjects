@@ -11,10 +11,9 @@ I aimed to practice core web concepts and strengthen my coding abilities for fut
 
 🌟 Next Steps
 I am now focusing on:
-
-    Backend development with Java + Spring Boot
-    REST API integration
-    Full Stack projects
+Backend development with Java + Spring Boot
+REST API integration
+Full Stack projects
 
 🔍 How to Run
 Each project is self-contained.  
