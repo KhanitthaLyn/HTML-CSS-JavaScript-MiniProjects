@@ -16,11 +16,12 @@ const createCard=(data)=>{
         </div>
         <div class="info">
             <h3 class="name">${data.name}</h3>
-            <small>เมืองหลวง : <span>${data.capital}</span></small>
+            <small>Capital : <span>${data.capital}</span></small>
         </div>
     `
     cardEl.innerHTML=contentHTML
     container.appendChild(cardEl)
 }
+
 
 getCountries()
