@@ -1,6 +1,6 @@
 const container = document.getElementById("container")
 const getCountries=async()=>{
-    const url='https://restcountries.com/v2/all'
+    const url='https://restcountries.com/v3.1/all'
     const res = await fetch(url)
     const items = await res.json()
     items.forEach(element => {
@@ -25,3 +25,4 @@ const createCard=(data)=>{
 
 
 getCountries()
+
